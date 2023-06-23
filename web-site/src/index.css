@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -66,4 +70,40 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+.tiktok_gradient{
+  background: radial-gradient(
+    64.18% 64.18% at 71.16% 35.69%,
+    #10dede 0.89%,
+    #dbe6e6 17.23%,
+    #000000 42.04%,
+    #000000 55.12%,
+    #e27070 71.54%,
+    #df1010 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.Langs{
+  background: transparent;
+}
+.Langs:hover{
+  background: linear-gradient(to bottom, WHITE, #FFBE0B)
+}
+
+.Sub{
+  background: transparent;
+}
+.Sub:hover{
+  background: linear-gradient(to bottom, WHITE, #FF006E)
+}
+
+.Frame{
+  background: transparent;
+}
+.Frame:hover{
+  background: linear-gradient(to bottom, white, #8338EC);
 }
